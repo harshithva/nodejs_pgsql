@@ -1,0 +1,10 @@
+CREATE TABLE students (
+sno integer,
+name varchar(20),
+phone varchar(20),
+email varchar(50),
+course varchar(20)    
+);
+
+INSERT INTO students (sno, name, phone, email, course)
+VALUES (1,"Harshith", "9148850331", "harshith@vawebsites.in", "BE");
